@@ -1,0 +1,10 @@
+[config]
+
+name="GodotChartboost"
+binary_type="local"
+binary="GodotChartboost.release.aar"
+
+[dependencies]
+
+remote=["com.chartboost:chartboost-sdk:8.1.0", "com.google.android.gms:play-services-base:17.3.0", "com.google.android.gms:play-services-ads-identifier:17.0.0"]
+custom_maven_repos=["https://chartboostmobile.bintray.com/Chartboost"]

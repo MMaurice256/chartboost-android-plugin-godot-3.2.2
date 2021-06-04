@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/debug/godot-lib.debug.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e08a8fd1e624c35ad31b54d3d747a250/godot-lib.debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e08a8fd1e624c35ad31b54d3d747a250/godot-lib.debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e08a8fd1e624c35ad31b54d3d747a250/godot-lib.debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

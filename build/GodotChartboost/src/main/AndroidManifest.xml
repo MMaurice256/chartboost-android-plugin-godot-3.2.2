@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.godotchartboost">
+    <!--    Compulsory permissions needed by the plugin    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--    Extra permissions if necessary  -->
+
+    <!--
+        To allow the SDK to cache all ad assets (creatives, custom frames, etc.) in external memory. This maximizes performance by immediately delivering ads and reducing network traffic used by the SDK.
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    -->
+
+    <!--
+        To allows the SDK to handle video playback when interrupted by a call
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    -->
+
+    <!--
+        Replace <application> content basing on Godot documentation, i.e.
+    android:name === org.godotengine.plugin.v1. + [Class Name]
+    android:value === java-package-name + [Class Name]
+    -->
+
+    <application>
+        <meta-data
+            android:name="org.godotengine.plugin.v1.GodotChartboost"
+            android:value="com.example.godotchartboost.GodotChartboost"
+            />
+    </application>
+</manifest>
